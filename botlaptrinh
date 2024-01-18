@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Đơn Giản</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        header, footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            background: #f1f1f1;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #33b5e5;
+            color: white;
+            text-align: center;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 80%;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Trang Web Đơn Giản</h1>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Danh Mục 1</a></li>
+                <li><a href="#">Danh Mục 2</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h2>Nội dung chính</h2>
+            <p>Xin chào! Đây là một trang web đơn giản được tạo bằng HTML.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>© 2024 Trang Web Đơn Giản. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+
+</html>
